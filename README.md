@@ -41,6 +41,7 @@ It uses the Express Node.js module and runs on hardcoded port 3000.
 
 ## Resources
 * Based on my nodejs-basic-express repository, which has its own list of resources
+* Downloading Google saved places: https://www.joshkasuboski.com/posts/export-google-saved-places/
 
 ## Future Ideas
 * Clean script
@@ -49,3 +50,4 @@ It uses the Express Node.js module and runs on hardcoded port 3000.
 * Incorporate VS Code Recipes template: https://github.com/Microsoft/vscode-recipes/
 * Customize linter
 * Update for express-generate/express 4 structure (or other generator)
+* Incporate Josh K's Neptume app here: https://www.joshkasuboski.com/posts/export-google-saved-places/

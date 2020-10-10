@@ -1,9 +1,10 @@
 /*
- * ""
+ * Node.js server start point for list of places sourced from Google maps json file
+ * Download from 
  */
 
 import express from 'express';
-import { DataSourceStatus, IDataSource } from './dataSource';
+import { IDataSource } from './dataSource';
 import { SavedPlaces } from './savedPlaces';
 
 //----------------------------------
