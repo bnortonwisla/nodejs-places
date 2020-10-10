@@ -1,3 +1,7 @@
+/*
+ * ""
+ */
+
 import express from 'express';
 import { DataSourceStatus, IDataSource } from './dataSource';
 import { SavedPlaces } from './savedPlaces';
@@ -34,7 +38,7 @@ app.all("*", (request, _response, next) => {
 //Root Route
 //----------------------------------
 app.get('/', (_request, response) => {
-  response.send(printJSON(data.getSummary()));
+  response.send(format("Welcome to my places app in Node.js and Express. Enjoy the peerless front-end experience!") + printJSON(data.getSummary()));
 });
 
 //----------------------------------
