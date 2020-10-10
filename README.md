@@ -1,12 +1,12 @@
-# Basic Node.js Web Server With Express
+# Manage List of Places Using Node.js Web Server With Express
 ## Background
 This is a very basic starter web server accessed with http://localhost:3000 .
 
 It uses the Express Node.js module and runs on hardcoded port 3000.
 
 ## Behavior
-* Server: logs to console when any endpoint is accessed with any method
-* Browser: sends message with echoed URL + request body for any method
+* Server: TBD
+* Browser: TBD
 
 ## Setup
 ### Prerequisites
@@ -40,10 +40,7 @@ It uses the Express Node.js module and runs on hardcoded port 3000.
     * lib/index.js: entry point for "prod" server assumed by scripts 
 
 ## Resources
-* Basic setup: https://blog.risingstack.com/your-first-node-js-http-server/
-* Live reloading with TypeScript: https://medium.com/@sudarshanadayananda/how-to-live-reload-typescript-node-server-bc40171fdb7
-* GitHub Markdown: https://guides.github.com/features/mastering-markdown/
-* ESLint for TypeScript: https://khalilstemmler.com/blogs/typescript/eslint-for-typescript/
+* Based on my nodejs-basic-express repository, which has its own list of resources
 
 ## Future Ideas
 * Clean script
